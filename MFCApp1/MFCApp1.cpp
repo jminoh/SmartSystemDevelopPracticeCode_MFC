@@ -248,7 +248,7 @@ BOOL CMFCApp1App::PreTranslateMessage(MSG* pMsg)
 			return 0;
 		}
 		default: break;
-		}
+		}break;
 	case WM_KEYUP:			// 키보드에서 손 뗐을 때
 		if (pMsg->wParam == VK_CONTROL)
 		{
